@@ -4,14 +4,24 @@
     color:black;
 }
 #background{
-  background-image: url("C:/Users/rac mayaguez/Desktop/project/ricura caribena/img/farm.jpg");
+  background-image: url("C:/Users/rac mayaguez/Desktop/project/ricura caribena/img/farm.jpeg");
   background-size: cover;
 }
 #content h3{
   padding: 30px;
+  color: #2FA564;
 }
 #content .card .img{
-  
+}
+#contactenos h4{
+  color: #2FA564;
+}
+.display-2{
+  font-family: 'Indie Flower', cursive;
+  color:white;
+}
+.card p{
+  color: gray;
 }
 footer{
   background-color:#3A3C42;
@@ -20,4 +30,27 @@ footer{
 }
 footer .container p{
 margin: 0;
+}
+.aboutme{
+  padding: 40px;
+}
+.aboutme h4{
+  color:gray;
+}
+.aboutme h4 span{
+  color: #94E8B1;
+}
+.aboutme .align{
+  margin: 25px;
+  text-align: center;
+}
+.vertical-align{
+  color:white;
+  display: flex;
+  flex-direction: row;
+}
+.align{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 }
