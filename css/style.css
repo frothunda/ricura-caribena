@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'PT Sans', sans-serif;
+}
 #cover {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -19,6 +21,14 @@
 }
 #contactenos h4{
   color: #2FA564;
+  padding:20px;
+}
+#contactenos{
+  margin-bottom: 60px;
+}
+nav a{
+  color:#969798;
+  font-size: 1.1em;
 }
 .display-2{
   font-family: 'Indie Flower', cursive;
@@ -30,6 +40,9 @@
 .card{
   width: 19rem;
   height: 18rem;
+  -webkit-box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
 }
 footer{
   background-color:#3A3C42;
@@ -40,14 +53,31 @@ footer .container p{
 margin: 0;
 }
 .aboutme{
+  background-image: url("C:/Users/rac mayaguez/Desktop/project/ricura caribena/img/meta.jpg");
+  background-size: cover;
   padding: 40px;
-  background-color: #EDEFF1;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 63px -13px rgba(0,0,0,0.75);
+}
+#content i{
+  color: #6AC04B;
+  font-size: 3em;
+  padding : 30px;
+  text-shadow: 1px 1px 1px #ccc;
+}
+.btn-circle {
+  text-align: center;
+  border-radius: 15px;
 }
 .aboutme h4{
-  color:gray;
-}
-.aboutme h4 span{
-  color: #94E8B1;
+  display: flex;
+  justify-content: center;
+  color: #2FA564;
 }
 .aboutme .mensaje{
   display: flex;
