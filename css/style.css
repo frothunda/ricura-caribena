@@ -7,7 +7,7 @@ body{
     color:black;
 }
 #background{
-  background-image: url("C:/Users/rac mayaguez/Desktop/project/ricura caribena/img/cover.jpg");
+  background-image: url("cover.jpg");
   background-size: cover;
 }
 #content h3{
@@ -53,7 +53,7 @@ footer .container p{
 margin: 0;
 }
 .aboutme{
-  background-image: url("C:/Users/rac mayaguez/Desktop/project/ricura caribena/img/meta.jpg");
+  background-image: url("meta.jpg");
   background-size: cover;
   padding: 40px;
   margin-top: 3em;
