@@ -129,7 +129,7 @@
   </div>
 <!-- Contactenos -->
 
-
+<!--
   <div class="container py-5" id="contactenos">
     <div class="row justify-content-center">
       <h4>Contactenos</h4>
@@ -147,6 +147,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
+
       <div class="col-md-8">
         <div class="form-group">
           <textarea name="comment" id="comment" placeholder="Mensaje" class="form-control" rows="5" cols="50"></textarea>
@@ -155,7 +156,34 @@
       </div>
     </div>
   </div>
-
+-->
+  <div class="container py-5 " id="contactenos">
+    <div class="row justify-content-center">
+      <h4>Contactenos</h4>
+    </div>
+    <form method="POST"  action="https://formspree.io/frothunda300@hotmail.com">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="form-group">
+        <input type="name" name="name" class="form-control" id="name" required placeholder="Nombre" size="40">
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+        <input type="email" name="email" class="form-control" id="email" required placeholder="Email" size="40">
+      </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="form-group">
+        <textarea name="message" id="comment" placeholder="Mensaje" class="form-control" rows="5" cols="50"></textarea>
+        <button type="submit" class="btn btn-success form-control mt-3">Enviar</button>
+      </div>
+    </div>
+  </div>
+  </form>
+ </div>
 
 
     <!--footer-->
