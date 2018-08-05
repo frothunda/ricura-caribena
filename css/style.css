@@ -22,6 +22,8 @@ body{
 }
 #contactenos h4{
   color: #2FA564;
+  font-family: 'Acme', sans-serif;
+  font-size: 3em;
   padding:20px;
 }
 #contactenos{
@@ -51,16 +53,7 @@ footer{
 footer .container p{
 margin: 0;
 }
-.aboutme{
-  background-image: url("meta.jpg");
-  background-size: cover;
-  padding: 40px;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+
 #content i{
   color: #6AC04B;
   font-size: 3em;
@@ -70,19 +63,6 @@ margin: 0;
 .btn-circle {
   text-align: center;
   border-radius: 15px;
-}
-.aboutme h4{
-  display: flex;
-  justify-content: center;
-  color: #2FA564;
-}
-.aboutme .mensaje{
-  display: flex;
-  align-items: center;
-}
-.aboutme .align{
-  margin: 25px;
-  text-align: center;
 }
 .vertical-align{
   color:white;
@@ -96,4 +76,39 @@ margin: 0;
 }
 .card-title{
   font-size:1.3em;
+}
+.test{
+  font-family: 'Markazi Text', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 35px;
+  letter-spacing: 1.4px;
+  font-size: 1.5em;
+  text-align: justify;
+}
+#nuestrameta{
+  padding: 20px;
+  min-height: 450px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#nuestrameta li{
+  list-style-type: circle;
+}
+#nuestrameta h4{
+  padding:30px;
+  font-size: 3em;
+  font-family: 'Acme', sans-serif;
+}
+#nuestrahistoria{
+
+}
+#nuestrahistoria h4{
+  padding:30px;
+  font-size: 3em;
+  font-family: 'Acme', sans-serif;
 }
