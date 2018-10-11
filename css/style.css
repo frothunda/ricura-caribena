@@ -1,6 +1,15 @@
+*{
+  /*outline:1px solid red;*/
+  padding:0;
+  margin:0;
+  webkit box sizing:border-box;
+  moz box sizing:border-box;
+  box-sizing:border-box;
+}
 body{
   font-family: 'PT Sans', sans-serif;
   background-color: #f5f5f5;
+
 }
 #cover {
     padding-top: 150px;
@@ -10,15 +19,6 @@ body{
 #background{
   background-image: url("cover.jpg");
   background-size: cover;
-}
-#content h3{
-  padding: 30px;
-  color: #2FA564;
-}
-#content{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
 }
 #contactenos h4{
   color: #2FA564;
@@ -37,28 +37,35 @@ nav a{
   font-family: 'Indie Flower', cursive;
   color:white;
 }
+/*---------------------- cards------------------- */
+.leaf-logo{
+  text-align: center;
+}
+.card-group{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-title{
+  font-size:1.3em;
+}
 .card p{
   color: gray;
 }
 .card{
-  width: 19rem;
-  height: 18rem;
+  min-width:250px;
+  max-width: 325px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
 }
-footer{
-  background-color:#3A3C42;
-  color:#E2DAD0;
-  padding: 30px;
-}
-footer .container p{
-margin: 0;
-}
-
 #content i{
   color: #6AC04B;
   font-size: 3em;
   padding : 30px;
   text-shadow: 1px 1px 1px #ccc;
+}
+
+/*----------------------  ------------------- */
 }
 .btn-circle {
   text-align: center;
@@ -74,20 +81,17 @@ margin: 0;
   flex-direction: row;
   align-items: center;
 }
-.card-title{
-  font-size:1.3em;
-}
-.test{
+
+.text{
   font-family: 'Markazi Text', serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 35px;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
   font-size: 1.5em;
-  text-align: justify;
+  margin-top: 1em;
+  color:#7C7C7C;
 }
 #nuestrameta{
   padding: 20px;
@@ -111,4 +115,27 @@ margin: 0;
   padding:30px;
   font-size: 3em;
   font-family: 'Acme', sans-serif;
+}
+/*---------------------- footer ------------------- */
+footer{
+  background-color:#3A3C42;
+  color:#E2DAD0;
+  padding: 30px;
+}
+.fab{
+  font-size:1.5em;
+}
+footer a{
+  color:#E2DAD0;
+}
+
+@media screen and (max-width: 1000px) {
+  #nuestrahistoria{
+      display: flex;
+      flex-direction: column;
+  }
+  footer{
+    text-align: center;
+  }
+
 }
